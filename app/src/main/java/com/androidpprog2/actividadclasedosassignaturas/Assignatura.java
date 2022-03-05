@@ -6,13 +6,15 @@ public class Assignatura implements Serializable {
 
     int id;
     int nombreAssignatura;
+    int nombreProfesor;
     int descripcion;
     //String img;
 
-    public Assignatura(int id, int nombreAssignatura, int descripcion) {
+    public Assignatura(int id, int nombreAssignatura, int descripcion, int nombreProfesor) {
         this.id = id;
         this.nombreAssignatura = nombreAssignatura;
         this.descripcion = descripcion;
+        this.nombreProfesor = nombreProfesor;
     }
 
 
@@ -38,5 +40,13 @@ public class Assignatura implements Serializable {
 
     public void setDescripcion(int descripcion) {
         this.descripcion = descripcion;
+    }
+
+    public int getNombreProfesor() {
+        return nombreProfesor;
+    }
+
+    public void setNombreProfesor(int nombreProfesor) {
+        this.nombreProfesor = nombreProfesor;
     }
 }

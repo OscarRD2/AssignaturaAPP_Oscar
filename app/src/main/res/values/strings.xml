@@ -1,21 +1,18 @@
 <resources>
     <string name="app_name">ActividadClaseDosAssignaturas</string>
     <string name="Assignatura1">Sistemas Operativos</string>
-    <string name="Assignatura2">Desenvolupament Dispositius Mòbils I</string>
+    <string name="Profesor1">José María Gaya Cortés</string>
+    <string name="Profesor2">Manel Roca Relats </string>
 
+    <string name="Assignatura2">Desarrollo De Aplicaciones Móviles I</string>
 
-    <string name="descripcionAssignatura1">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-        Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-        (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de
-        textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de rellenoen documentos electrónicos, quedando esencialmente
-        igual al original. Fue popularizado en los 60s con la creación de las hojas</string>
+    <string name="descripcionAssignatura1">¿Qué es el Sistema Operativo? Un Sistema Operativo (SO) es un programa (software) que cuando arrancamos o
+        iniciamos el ordenador se encarga de gestionar todos los recursos del sistema informático permitiendo así la comunicación entre el usuario y el ordenador.</string>
 
+    <string name="descripcionAssignatura2">El desarrollo de aplicaciones móviles es el conjunto de procesos y
+        procedimientos involucrados en la escritura de software para dispositivos informáticos pequeños e inalámbricos, como teléfonos inteligentes y
+        otros dispositivos portátiles.</string>
 
-    <string name="descripcionAssignatura2">Assignatura 2 el texto de relleno de las imprentas y archivos de texto.
-        Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
-        (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de
-        textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de rellenoen documentos electrónicos, quedando esencialmente
-        igual al original. Fue popularizado en los 60s con la creación de las hojas</string>
     <string name="NombreAssignatura"> Nombre Assignatura</string>
 
 

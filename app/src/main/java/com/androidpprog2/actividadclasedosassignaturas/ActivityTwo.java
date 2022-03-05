@@ -18,6 +18,7 @@ public class ActivityTwo extends Activity {
 
         Assignatura assignatura =(Assignatura) bundle.getSerializable("datos");
         TextView nameAssignatura =(TextView) findViewById(R.id.TituloAssignatura);
+        TextView nombreProfesor =(TextView) findViewById(R.id.NombreProfesor);
         TextView descripcionAssignatura =(TextView) findViewById(R.id.DescripcionAssignatura);
 
 
@@ -25,10 +26,12 @@ public class ActivityTwo extends Activity {
     if(assignatura.getId()==1){
 
         nameAssignatura.setText(assignatura.getNombreAssignatura());
+        nombreProfesor.setText(assignatura.getNombreProfesor());
         descripcionAssignatura.setText(assignatura.getDescripcion());
 
     }else if(assignatura.getId()==2){
         nameAssignatura.setText(assignatura.getNombreAssignatura());
+        nombreProfesor.setText(assignatura.getNombreProfesor());
         descripcionAssignatura.setText(assignatura.getDescripcion());
 
     }
