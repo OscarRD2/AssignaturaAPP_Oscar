@@ -25,15 +25,11 @@
         android:layout_width="412dp"
         android:layout_height="257dp"
         android:layout_marginBottom="16dp"
-        android:background="#FFCFCF"
-        android:foreground="@drawable/so_img"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/so_img"
-        tools:srcCompat="@drawable/so_img"
         tools:visibility="visible" />
 
     <TextView

@@ -8,13 +8,14 @@ public class Assignatura implements Serializable {
     int nombreAssignatura;
     int nombreProfesor;
     int descripcion;
-    //String img;
+    int img;
 
-    public Assignatura(int id, int nombreAssignatura, int descripcion, int nombreProfesor) {
+    public Assignatura(int id, int nombreAssignatura, int descripcion, int nombreProfesor, int img) {
         this.id = id;
         this.nombreAssignatura = nombreAssignatura;
         this.descripcion = descripcion;
         this.nombreProfesor = nombreProfesor;
+        this.img=img;
     }
 
 
@@ -44,6 +45,14 @@ public class Assignatura implements Serializable {
 
     public int getNombreProfesor() {
         return nombreProfesor;
+    }
+
+    public int getImg() {
+        return img;
+    }
+
+    public void setImg(int img) {
+        this.img = img;
     }
 
     public void setNombreProfesor(int nombreProfesor) {

@@ -2,6 +2,7 @@ package com.androidpprog2.actividadclasedosassignaturas;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,7 +21,7 @@ public class ActivityTwo extends Activity {
         TextView nameAssignatura =(TextView) findViewById(R.id.TituloAssignatura);
         TextView nombreProfesor =(TextView) findViewById(R.id.NombreProfesor);
         TextView descripcionAssignatura =(TextView) findViewById(R.id.DescripcionAssignatura);
-
+        ImageView img = (ImageView) findViewById(R.id.imagen);
 
 
     if(assignatura.getId()==1){
@@ -28,11 +29,14 @@ public class ActivityTwo extends Activity {
         nameAssignatura.setText(assignatura.getNombreAssignatura());
         nombreProfesor.setText(assignatura.getNombreProfesor());
         descripcionAssignatura.setText(assignatura.getDescripcion());
+        img.setImageResource(R.drawable.so_img);
 
     }else if(assignatura.getId()==2){
         nameAssignatura.setText(assignatura.getNombreAssignatura());
         nombreProfesor.setText(assignatura.getNombreProfesor());
         descripcionAssignatura.setText(assignatura.getDescripcion());
+        img.setImageResource(R.drawable.ddm);
+
 
     }
 
