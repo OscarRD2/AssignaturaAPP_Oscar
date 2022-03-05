@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
 
-    Assignatura assignatura1 = new Assignatura(1, "Sistemas Operativos", "Descripcion Assignatura1");
-    Assignatura assignatura2 = new Assignatura(2, "Desenvolupament Dispositius Mòbils I", "Descripcion Assignatura2");
+    Assignatura assignatura1 = new Assignatura(1, R.string.Assignatura1, R.string.descripcionAssignatura1);
+    Assignatura assignatura2 = new Assignatura(2, R.string.Assignatura2, R.string.descripcionAssignatura2);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

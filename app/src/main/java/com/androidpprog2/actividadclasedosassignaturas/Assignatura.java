@@ -5,11 +5,11 @@ import java.io.Serializable;
 public class Assignatura implements Serializable {
 
     int id;
-    String nombreAssignatura;
-    String descripcion;
+    int nombreAssignatura;
+    int descripcion;
     //String img;
 
-    public Assignatura(int id, String nombreAssignatura, String descripcion) {
+    public Assignatura(int id, int nombreAssignatura, int descripcion) {
         this.id = id;
         this.nombreAssignatura = nombreAssignatura;
         this.descripcion = descripcion;
@@ -20,27 +20,23 @@ public class Assignatura implements Serializable {
         return id;
     }
 
-    public String getNombreAssignatura() {
-        return nombreAssignatura;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-
-
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setNombreAssignatura(String nombreAssignatura) {
+    public int getNombreAssignatura() {
+        return nombreAssignatura;
+    }
+
+    public void setNombreAssignatura(int nombreAssignatura) {
         this.nombreAssignatura = nombreAssignatura;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public int getDescripcion() {
+        return descripcion;
     }
 
-
+    public void setDescripcion(int descripcion) {
+        this.descripcion = descripcion;
+    }
 }
