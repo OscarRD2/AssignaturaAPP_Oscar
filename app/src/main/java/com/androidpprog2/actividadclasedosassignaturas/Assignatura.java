@@ -1,17 +1,18 @@
 package com.androidpprog2.actividadclasedosassignaturas;
 
-public class Assignatura {
+import java.io.Serializable;
+
+public class Assignatura implements Serializable {
 
     int id;
     String nombreAssignatura;
     String descripcion;
-    String img;
+    //String img;
 
-    public Assignatura(int id, String nombreAssignatura, String descripcion, String img) {
+    public Assignatura(int id, String nombreAssignatura, String descripcion) {
         this.id = id;
         this.nombreAssignatura = nombreAssignatura;
         this.descripcion = descripcion;
-        this.img = img;
     }
 
 
@@ -27,9 +28,7 @@ public class Assignatura {
         return descripcion;
     }
 
-    public String getImg() {
-        return img;
-    }
+
 
     public void setId(int id) {
         this.id = id;
@@ -43,7 +42,5 @@ public class Assignatura {
         this.descripcion = descripcion;
     }
 
-    public void setImg(String img) {
-        this.img = img;
-    }
+
 }

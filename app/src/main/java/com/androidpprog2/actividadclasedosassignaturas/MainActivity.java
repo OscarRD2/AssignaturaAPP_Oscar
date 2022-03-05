@@ -1,12 +1,16 @@
 package com.androidpprog2.actividadclasedosassignaturas;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
+
+
+    Assignatura assignatura1 = new Assignatura(1, "Sistemas Operativos", "Descripcion Assignatura1");
+    Assignatura assignatura2 = new Assignatura(2, "Desenvolupament Dispositius Mòbils I", "Descripcion Assignatura2");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,9 +19,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void onClick(View v) {
 
-    public void infoAssignatura1(View v){
-        Intent i = new Intent(this, infoAssignatura.class);
-        startActivity(i);
+        switch (v.getId()) {
+
+            case R.id.Assignatura1:
+                startActivity(new Intent(this, ActivityTwo.class).putExtra("datos", assignatura1));
+                break;
+            case R.id.Assignatura2:
+                startActivity(new Intent(this, ActivityTwo.class).putExtra("datos", assignatura2));
+                break;
+        }
+
+
     }
+
+
 }
