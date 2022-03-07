@@ -1,4 +1,4 @@
-package com.androidpprog2.actividadclasedosassignaturas;
+package com.androidpprog2.actividadclasedosassignaturas.model;
 
 import java.io.Serializable;
 

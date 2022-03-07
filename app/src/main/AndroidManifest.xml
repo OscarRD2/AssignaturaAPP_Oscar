@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActividadClaseDosAssignaturas">
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityTwo"></activity>
+        <activity android:name=".controller.ActivityTwo"></activity>
     </application>
 
 </manifest>

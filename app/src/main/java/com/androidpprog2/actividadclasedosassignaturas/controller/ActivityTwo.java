@@ -1,10 +1,12 @@
-package com.androidpprog2.actividadclasedosassignaturas;
+package com.androidpprog2.actividadclasedosassignaturas.controller;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.androidpprog2.actividadclasedosassignaturas.R;
+import com.androidpprog2.actividadclasedosassignaturas.model.Assignatura;
 
 public class ActivityTwo extends Activity {
 

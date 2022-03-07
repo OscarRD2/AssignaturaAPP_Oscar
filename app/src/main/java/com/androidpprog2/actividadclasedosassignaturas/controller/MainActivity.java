@@ -1,10 +1,13 @@
-package com.androidpprog2.actividadclasedosassignaturas;
+package com.androidpprog2.actividadclasedosassignaturas.controller;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.androidpprog2.actividadclasedosassignaturas.R;
+import com.androidpprog2.actividadclasedosassignaturas.model.Assignatura;
 
 public class MainActivity extends AppCompatActivity {
 
